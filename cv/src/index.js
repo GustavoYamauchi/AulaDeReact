@@ -19,7 +19,8 @@ function Descricao(){
   return (
     !crypts ? <h1>Carregando</h1> : 
     <>
-      <p>{crypts[0].bassedAssets}</p>
+      <p>{crypts[0].baseAsset}</p>
+      <p>{crypts[0].openPrice}</p>
     </>
   )
 }
